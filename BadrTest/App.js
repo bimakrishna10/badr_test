@@ -1,6 +1,6 @@
-import {View, Text, ScrollView} from 'react-native';
-import React, {useEffect, useState} from 'react';
 import axios from 'axios';
+import {useEffect, useState} from 'react';
+import {ScrollView, Text, View} from 'react-native';
 
 export default function App() {
   const [data, setData] = useState([]);
