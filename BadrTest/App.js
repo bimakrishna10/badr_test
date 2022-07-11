@@ -18,14 +18,6 @@ export default function App() {
     setData(response?.data);
   };
 
-  const storeCard = () => {
-    return (
-      <View>
-        <Text>store card</Text>
-      </View>
-    );
-  };
-
   const Header = ({title}) => {
     return (
       <View
